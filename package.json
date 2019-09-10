@@ -1,15 +1,16 @@
 {
   "name": "nuxt-echo",
-  "version": "0.0.14",
+  "version": "0.0.1",
   "description": "Laravel Echo integration for NuxtJS 2.0",
   "license": "MIT",
   "contributors": [
     {
-      "name": "Zhivolupov Ivan <ivan.zhivolupov@freedomcore.ru>"
+      "name": "Zhivolupov Ivan <ivan.zhivolupov@freedomcore.ru>",
+      "name": "Minul Islam <maanpatwary@gmail.com>"
     }
   ],
   "main": "lib/module.js",
-  "repository": "https://github.com/darki73/nuxt-echo",
+  "repository": "https://github.com/minulislam/nuxtjs-laravel-echo",
   "publishConfig": {
     "access": "public"
   },
