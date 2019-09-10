@@ -1,0 +1,54 @@
+{
+  "name": "nuxt-echo",
+  "version": "0.0.14",
+  "description": "Laravel Echo integration for NuxtJS 2.0",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Zhivolupov Ivan <ivan.zhivolupov@freedomcore.ru>"
+    }
+  ],
+  "main": "lib/module.js",
+  "repository": "https://github.com/darki73/nuxt-echo",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "nuxt example",
+    "lint": "eslint lib test",
+    "test": "npm run lint && jest",
+    "release": "standard-version && git push --follow-tags && npm publish"
+  },
+  "eslintIgnore": [
+    "lib/plugin.js"
+  ],
+  "files": [
+    "lib"
+  ],
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverage": true
+  },
+  "dependencies": {
+    "laravel-echo": "^1.5.1",
+    "lodash": "^4.17.11",
+    "pusher-js": "^4.3.1",
+    "socket.io-client": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "latest",
+    "codecov": "latest",
+    "eslint": "latest",
+    "eslint-config-standard": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-jest": "latest",
+    "eslint-plugin-node": "latest",
+    "eslint-plugin-promise": "latest",
+    "eslint-plugin-standard": "latest",
+    "eslint-plugin-vue": "latest",
+    "jest": "latest",
+    "jsdom": "latest",
+    "nuxt-edge": "latest",
+    "standard-version": "latest"
+  }
+}
