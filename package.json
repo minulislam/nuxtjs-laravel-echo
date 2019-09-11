@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-echo",
+  "name": "nuxtjs-laravel-echo",
   "version": "0.0.2",
   "description": "Laravel Echo integration for NuxtJS 2.0",
   "license": "MIT",
