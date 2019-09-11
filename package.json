@@ -1,11 +1,10 @@
 {
   "name": "nuxt-echo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Laravel Echo integration for NuxtJS 2.0",
   "license": "MIT",
   "contributors": [
     {
-      "name": "Zhivolupov Ivan <ivan.zhivolupov@freedomcore.ru>",
       "name": "Minul Islam <maanpatwary@gmail.com>"
     }
   ],
