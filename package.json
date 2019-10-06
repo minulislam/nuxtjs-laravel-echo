@@ -5,7 +5,12 @@
   "license": "MIT",
   "contributors": [
     {
-      "name": "Minul Islam <maanpatwary@gmail.com>"
+      "name": "Zhivolupov Ivan",
+      "email": "ivan.zhivolupov@freedomcore.ru"
+    },
+    {
+      "name": "Minul Islam",
+      "email": "maanpatwary@gmail.com"
     }
   ],
   "main": "lib/module.js",
