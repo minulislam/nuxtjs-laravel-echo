@@ -7,27 +7,14 @@ module.exports = {
   render: {
     resourceHints: false
   },
-  modules: [
-    [
-      "@@",
-      {
-        component: "fa",
-        imports: [
-          {
-            set: "@fortawesome/free-solid-svg-icons",
-            icons: ["faCog", "faCalendar", "faHome", "faCircle", "faCheck"]
-          }
-        ]
-      }
-    ]
-  ],
+  modules: ["@@"],
   laravelecho: {
     driver: "laravel-websockets",
-    endpoint: "/api/broadcasting/auth",
+    endpoint: "/broadcasting/auth",
     drivers: {
-      [`${process.env.BROADCASTER}`]: {
+      "laravel-websockets": {
         driver: "laravel-websockets",
-        endpoint: "/api/v1/broadcasting/auth",
+        endpoint: "/broadcasting/auth",
         key: "BZKBzbb1eGLaKVLhWwh59MOsbPCa0MwZBtfCDIFD",
         wsHost: "larapro.test",
         wsPort: 6001,
